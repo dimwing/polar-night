@@ -13,6 +13,7 @@ import { HeroService } from './hero.service';
 import { MessageService } from './message.service';
 import { AppRoutingModule } from './/app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { HolyGrailLayoutComponent } from './holy-grail-layout/holy-grail-layout.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     HeroDetailComponent,
     MessagesComponent,
     DashboardComponent,
+    HolyGrailLayoutComponent,
   ],
   imports: [
     BrowserModule,
