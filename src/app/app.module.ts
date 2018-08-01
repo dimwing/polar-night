@@ -14,6 +14,7 @@ import { MessageService } from './message.service';
 import { AppRoutingModule } from './/app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HolyGrailLayoutComponent } from './holy-grail-layout/holy-grail-layout.component';
+import { ShuangFeiYiLayoutComponent } from './shuang-fei-yi-layout/shuang-fei-yi-layout.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { HolyGrailLayoutComponent } from './holy-grail-layout/holy-grail-layout.
     MessagesComponent,
     DashboardComponent,
     HolyGrailLayoutComponent,
+    ShuangFeiYiLayoutComponent,
   ],
   imports: [
     BrowserModule,
